@@ -31,8 +31,25 @@ function promptUser() {
       message: "List your collaborators ",
       name: "credits",
     },
+    {
+      type: "list",
+      name: "license",
+      message: "What types of licenses?",
+      choices: [
+        "GNU AGPLv3",
+        "GNU GPLv3",
+        "GNU LPGLv3",
+        "Mozilla Public License 2.0",
+        "Apache License 2.0",
+        "MIT License",
+        "Boost Software License 1.0",
+        "The Unlicense",
+      ],
+    },
   ]);
 }
+
+promptUser();
 
 // function generateHTML(answers) {
 //   return `
