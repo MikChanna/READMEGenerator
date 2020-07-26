@@ -1,39 +1,41 @@
-# READMEGenerator
+**# ${answer.title}**
 
-# ${answer.title}
-
-## Description
+**## Description**
 
 ${answer.description}
 
-## Table of Contents
+**## Table of Contents**
 
-[Installation_Instructions] (link)
-[Usage_Information] (link)
-[Contribution] (link)
-[Test_Instructions] (link)
-[License] (link)
-[Questions] (link)
-## Installation Instructions
+1.  [Installation_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#installation-instructions)
+2.  [Usage_Information](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#usage-information)
+3.  [Contribution](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#contribution)
+4.  [Test_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#test-instructions)
+5.  [License](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#license)
+6.  [Questions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#questions)
+
+
+**## Installation Instructions**
 
 ${answer.installation}
 
-## Usage Information
+**## Usage Information**
 
 ${answer.usage}
 
-## Contribution
+**## Contribution**
 
 ${answer.contribution}
 
-## Test Instructions
+**## Test Instructions**
 
 ${answer.test}
 
-## License
+**## License**
 
 ${answer.license}
 
-## Questions
+**## Questions**
 
-For any questions about the project, please feel free to reach out to me on github or via email. Thank you for veiwing this project! ${answer.github} ${answer.Email}
+For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for veiwing this project!
+${answer.github}
+${answer.Email}
