@@ -1,9 +1,9 @@
-const template = `
-**# ${answer.title}**
+
+**# ${answers.title}**
 
 **## Description**
 
-${answer.description}
+${answers.description}
 
 **## Table of Contents**
 
@@ -17,28 +17,29 @@ ${answer.description}
 
 **## Installation Instructions**
 
-${answer.installation}
+${answers.installation}
 
 **## Usage Information**
 
-${answer.usage}
+${answers.usage}
 
 **## Contribution**
 
-${answer.contribution}
+${answers.credits}
 
 **## Test Instructions**
 
-${answer.test}
+${answers.test}
 
 **## License**
 
-${answer.license}
+${answers.license}
 
 **## Questions**
 
 For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for veiwing this project!
-${answer.github}
-${answer.Email}
 
-`;
+${answers.github}
+
+${answers.email}
+
