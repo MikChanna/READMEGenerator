@@ -116,10 +116,10 @@ promptUser()
   .then(function (answers) {
     const markdown = generateMD(answers);
 
-    return writeFileAsync("newindex.md", markdown);
+    return writeFileAsync("README.md", markdown);
   })
   .then(function () {
-    console.log("Successfully wrote to index.html");
+    console.log("Successfully wrote to README.md");
   })
   .catch(function (err) {
     console.log(err);
