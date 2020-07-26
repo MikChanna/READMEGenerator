@@ -4,7 +4,7 @@ const util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-function promptUser() {
+function promptUser(answers) {
   return inquirer.prompt([
     {
       type: "input",
@@ -25,6 +25,11 @@ function promptUser() {
       type: "input",
       message: "Provide instructions for use",
       name: "usage",
+    },
+    {
+      type: "input",
+      message: "Test Instructions",
+      name: "test",
     },
     {
       type: "input",
@@ -49,7 +54,7 @@ function promptUser() {
   ]);
 }
 
-function generateHTML(answers) {
+function generateMD(answers) {
   return `
   # ${answers.title}
   ## ${answers.description}
@@ -62,9 +67,10 @@ function generateHTML(answers) {
 
 promptUser()
   .then(function (answers) {
-    const markdown = generateHTML(answers);
+    const markdown = generateMD(answers);
+    console.log(res.name);
 
-    return writeFileAsync("index.md", markdown);
+    return writeFileAsync("newindex.md", markdown);
   })
   .then(function () {
     console.log("Successfully wrote to index.html");
