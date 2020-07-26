@@ -51,6 +51,16 @@ function promptUser(answers) {
         "The Unlicense",
       ],
     },
+    {
+      type: "input",
+      message: "Your github link",
+      name: "github",
+    },
+    {
+      type: "input",
+      message: "You email address",
+      name: "email",
+    },
   ]);
 }
 
