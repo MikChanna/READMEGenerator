@@ -84,28 +84,28 @@ const license = {
 
 const badges = {
   ["GNU AGPLv3"]:
-    "[![Generic badge](https://img.shields.io/badge/license-GNU_AGPL-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-GNU_AGPL-<COLOR>.svg)](https://shields.io/)",
 
   ["GNU GPLv3"]:
-    "[![Generic badge](https://img.shields.io/badge/license-GNU_GPL-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-GNU_GPL-<COLOR>.svg)](https://shields.io/)",
 
   ["GNU LGPLv3"]:
-    "[![Generic badge](https://img.shields.io/badge/license-GNU_LGP-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-GNU_LGP-<COLOR>.svg)](https://shields.io/)",
 
   ["Mozilla Public License 2.0"]:
-    "https://img.shields.io/badge/<license>-<Mozilla 2.0>-<green>",
+    "[![Generic badge](https://img.shields.io/badge/License-Mozilla-<COLOR>.svg)](https://shields.io/)",
 
   ["Apache License 2.0"]:
-    "[![Generic badge](https://img.shields.io/badge/license-Apache_2.0-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-Apache_2.0-<COLOR>.svg)](https://shields.io/)",
 
   ["MIT License"]:
-    "[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-MIT-<COLOR>.svg)](https://shields.io/)",
 
   ["Boost Software License 1.0"]:
-    "[![Generic badge](https://img.shields.io/badge/license-Boost_1.0-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-Boost_1.0-<COLOR>.svg)](https://shields.io/)",
 
   ["The Unlicense"]:
-    "[![Generic badge](https://img.shields.io/badge/license-Unlicense-<COLOR>.svg)](https://shields.io/)",
+    "[![Generic badge](https://img.shields.io/badge/License-Unlicense-<COLOR>.svg)](https://shields.io/)",
 };
 
 function generateMD(answers) {
@@ -123,37 +123,38 @@ ${answers.description}
 
 **## Table of Contents**
 
-1.  [Installation_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#installation-instructions)
-2.  [Usage_Information](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#usage-information)
-3.  [Contribution](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#contribution)
-4.  [Test_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#test-instructions)
-5.  [License](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#license)
-6.  [Questions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#questions)
+1. [Installation Instructions](#installation-instructions)
+2. [Usage Information](#usage-information)
+3. [Contributors](#contributors)
+4. [Test Instructions](#test-instructions)
+5. [License](#license)
+6. [Questions](#questions)
 
 
-**## Installation Instructions**
+
+## Installation Instructions
 
 ${answers.installation}
 
-**## Usage Information**
+## Usage Information
 
 ${answers.usage}
 
-**## Contribution**
+## Contribution
 
 ${answers.credits}
 
-**## Test Instructions**
+## Test Instructions
 
 ${answers.test}
 
-**## License**
+## License
 
 *${answers.license}*
 
 ${license[answers.license]}
 
-**## Questions**
+# Questions
 
 For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for veiwing this project!
 
