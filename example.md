@@ -17,23 +17,12 @@ Have you ever wanted to write up a README without having to worry about the appe
 
 **## Installation Instructions**
 
-You can install this program by cloning it to your local machine.
-
-`git clone git@github.com:MikChanna/READMEGenerator.git`
-
-After cloning it to your local machine - you may delete the README.MD and run the js file in your terminal by using node.
-
-Inquirer is required for this program to work so be sure to install in using:
-`npm i inquirer`
+You can install this program by cloning it to your local machine.`git clone git@github.com:MikChanna/READMEGenerator.git`.  After cloning it to your local machine - you may delete the README.MD and run the js file in your terminal by using node.
+Inquirer is require for this program to work so be sure to install in using: `npm i inquirer`
 
 **## Usage Information**
 
-After installing the program, run it in your terminal using node.
-`node index`
-
-The program will then prompt you to enter in information about your program such as the title, description, installation instructions, usage information, contributers, and test instructions.  It will also prompt you to choose a license from a list for you program and prompting you to enter in your github link and email address.
-
-After entering in your email address the program will write a new file called `README.md` and there goes your newly generated README.
+After installing the program, run it in your terminal using node.`node index`.  The program will then prompt you to enter in information about your program such as the title, description, installation instructions, usage information, contributers, and test instructions.  It will also prompt you to choose a license from a list for you program and prompting you to enter in your github link and email address. After entering in your email address the program will write a new file called `README.md` and there goes your newly generated README.  Unfortunately, inquirer prompts will not recognize line breaks so write all of your responses on one line, then you may go back in the file and add your line breaks.
 
 
 **## Contributors**
