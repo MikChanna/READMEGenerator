@@ -1,15 +1,15 @@
 
-**# ${answers.title}**
+  **# **
 
 **## Description**
 
-${answers.description}
+
 
 **## Table of Contents**
 
 1.  [Installation_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#installation-instructions)
 2.  [Usage_Information](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#usage-information)
-3.  [Contributors](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#contribution)
+3.  [Contribution](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#contribution)
 4.  [Test_Instructions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#test-instructions)
 5.  [License](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#license)
 6.  [Questions](https://github.com/MikChanna/READMEGenerator/blob/master/README.md#questions)
@@ -17,29 +17,30 @@ ${answers.description}
 
 **## Installation Instructions**
 
-${answers.installation}
+
 
 **## Usage Information**
 
-${answers.usage}
 
-**## Contributors**
 
-${answers.credits}
+**## Contribution**
+
+
 
 **## Test Instructions**
 
-${answers.test}
+
 
 **## License**
 
-*${answers.license}*
+GNU AGPLv3
+Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
 
 **## Questions**
 
 For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for veiwing this project!
 
-${answers.github}
 
-${answers.email}
 
+
+  
