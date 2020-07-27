@@ -82,9 +82,40 @@ const license = {
     "A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.",
 };
 
+const badges = {
+  ["GNU AGPLv3"]:
+    "[![Generic badge](https://img.shields.io/badge/license-GNU_AGPL-<COLOR>.svg)](https://shields.io/)",
+
+  ["GNU GPLv3"]:
+    "[![Generic badge](https://img.shields.io/badge/license-GNU_GPL-<COLOR>.svg)](https://shields.io/)",
+
+  ["GNU LGPLv3"]:
+    "[![Generic badge](https://img.shields.io/badge/license-GNU_LGP-<COLOR>.svg)](https://shields.io/)",
+
+  ["Mozilla Public License 2.0"]:
+    "https://img.shields.io/badge/<license>-<Mozilla 2.0>-<green>",
+
+  ["Apache License 2.0"]:
+    "[![Generic badge](https://img.shields.io/badge/license-Apache_2.0-<COLOR>.svg)](https://shields.io/)",
+
+  ["MIT License"]:
+    "[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](https://shields.io/)",
+
+  ["Boost Software License 1.0"]:
+    "[![Generic badge](https://img.shields.io/badge/license-Boost_1.0-<COLOR>.svg)](https://shields.io/)",
+
+  ["The Unlicense"]:
+    "[![Generic badge](https://img.shields.io/badge/license-Unlicense-<COLOR>.svg)](https://shields.io/)",
+};
+
 function generateMD(answers) {
   return `
-  **# ${answers.title}**
+  
+  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) 
+
+  ${badges[answers.license]}
+
+  **# ${answers.title}** 
 
 **## Description**
 

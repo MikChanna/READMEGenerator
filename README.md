@@ -1,5 +1,10 @@
 
-  **# **
+  
+  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) 
+
+  [![Generic badge](https://img.shields.io/badge/license-GNU_AGPL-<COLOR>.svg)](https://shields.io/)
+
+  **# ** 
 
 **## Description**
 
@@ -33,7 +38,8 @@
 
 **## License**
 
-GNU AGPLv3
+*GNU AGPLv3*
+
 Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
 
 **## Questions**
