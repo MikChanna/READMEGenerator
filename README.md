@@ -4,13 +4,13 @@
 
   [![Generic badge](https://img.shields.io/badge/License-MIT-<COLOR>.svg)](https://shields.io/)
 
-  **# README Generator** 
+# README Generator
 
-**## Description**
+## Description
 
 Have you ever wanted to write up a README without having to worry about the appearance?  This project does the visual work for you by creating standard headers and inputing in the information for you.  It is your easy README Generator.
 
-**## Table of Contents**
+## Table of Contents
 
 1. [Installation Instructions](#installation-instructions)
 2. [Usage Information](#usage-information)
