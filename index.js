@@ -156,7 +156,7 @@ ${license[answers.license]}
 
 # Questions
 
-For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for veiwing this project!
+For any questions about the project, please feel free to reach out to me on github or via email.  Thank you for viewing this project!
 
 ${answers.github}
 
@@ -167,7 +167,7 @@ ${answers.email}
 promptUser()
   .then(function (answers) {
     const markdown = generateMD(answers);
-    console.log(license[answers.license]);
+
     return writeFileAsync("README.md", markdown);
   })
   .then(function () {
